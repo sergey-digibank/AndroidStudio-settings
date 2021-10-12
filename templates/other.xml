@@ -1,0 +1,14 @@
+<templateSet group="other">
+  <template name="unittest" value="@Test&#10;public void $METHOD$_$PARAMETERS$_$EXPECTATION$() {&#10;    // given&#10;    $GIVEN$&#10;&#10;    // when&#10;    $WHEN$&#10;&#10;    // then&#10;    $THEN$&#10;}$END$" description="Creates unit test template" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPECTATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GIVEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

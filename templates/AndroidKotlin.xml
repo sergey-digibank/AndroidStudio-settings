@@ -1,0 +1,28 @@
+<templateSet group="AndroidKotlin">
+  <template name="testunit" value="@Test&#10;fun `$METHOD$ - $STATE_UNDER_TEST$ - $EXPECTED_BEHAVIOR$`() {&#10;    //given&#10;    $GIVEN$&#10;    //when&#10;    $WHEN$&#10;    //then&#10;    $THEN$&#10;}&#10;" description="Creates an empty unit-test" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATE_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPECTED_BEHAVIOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="GIVEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="vmlive" value="private val _$name$ = MutableLiveData&lt;$type$&gt;($initial_state$)&#10;val $name$: LiveData&lt;$type$&gt; = _$name$" description="ViewModel LiveData" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="initial_state" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="vmstateflow" value="private val _$name$ = MutableStateFlow($initial_state$)&#10;val $name$ = _$name$.asStateFlow()" description="ViewModel LiveData" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="initial_state" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

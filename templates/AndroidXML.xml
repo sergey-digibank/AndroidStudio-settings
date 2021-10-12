@@ -1,0 +1,9 @@
+<templateSet group="AndroidXML">
+  <template name="it" value="&lt;item name=&quot;$name$&quot;&gt;$value$&lt;/item&gt;" description="&lt;item name=&quot;&quot;&gt;__&lt;/item&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

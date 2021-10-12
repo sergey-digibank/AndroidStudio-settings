@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
+        <abbreviation name="previeweditor" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
