@@ -1,19 +1,7 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="contrastMode" value="true" />
-    <option name="highlightColorEnabled" value="true" />
-    <option name="isHighlightColorEnabled" value="true" />
-    <option name="isContrastMode" value="true" />
-    <option name="isWizardShown" value="true" />
-    <option name="pristineConfig" value="false" />
-    <option name="treeFontSizeEnabled" value="true" />
-    <option name="useMaterialFont2" value="true" />
-    <option name="treeFontSize" value="13" />
-    <option name="tabFontSize" value="14" />
-    <option name="settingsSelectedTab" value="4" />
-    <option name="tabsHeight" value="20" />
     <option name="accentColor" value="009688" />
-    <option name="userId" value="-22093e99:16b892ea504:-8000" />
+    <option name="userId" value="-414dcf30:17c791181af:-8000" />
     <option name="version" value="5.5.0" />
   </component>
 </application>
