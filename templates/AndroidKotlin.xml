@@ -18,9 +18,15 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="vmstateflow" value="private val _$name$ = MutableStateFlow($initial_state$)&#10;val $name$ = _$name$.asStateFlow()" description="ViewModel LiveData" toReformat="false" toShortenFQNames="true">
+  <template name="vmstateflow" value="private val _$name$ = MutableStateFlow($initial_state$)&#10;val $name$ = _$name$.asStateFlow()" description="ViewModel StateFlow" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="initial_state" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="vmchannel" value="private val _$name$ = Channel&lt;&gt;(Channel.CONFLATED)&#10;val $name$ = _$name$.receiveAsFlow()" description="ViewModel Channecl" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
