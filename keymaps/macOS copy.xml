@@ -7,6 +7,9 @@
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateServicesToolWindow" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta alt y" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
