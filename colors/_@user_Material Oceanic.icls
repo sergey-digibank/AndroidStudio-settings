@@ -4,7 +4,7 @@
     <property name="created">2021-05-31T17:22:53</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">2020.3.1.15</property>
-    <property name="modified">2021-11-03T12:49:06</property>
+    <property name="modified">2021-11-08T14:31:51</property>
     <property name="originalScheme">Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1364,8 +1364,9 @@
     </option>
     <option name="KOTLIN_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="fc4646" />
+        <option name="FOREGROUND" value="ca363c" />
         <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
