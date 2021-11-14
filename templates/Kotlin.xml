@@ -1,0 +1,9 @@
+<templateSet group="Kotlin">
+  <template name="ifel" value="if ($CONDITION$) {&#10;    $THEN$&#10;} else {&#10;    $END$&#10;}" description="Inserts 'if else' expression" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
