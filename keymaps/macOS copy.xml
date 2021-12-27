@@ -20,10 +20,8 @@
   <action id="Git.Rebase">
     <keyboard-shortcut first-keystroke="shift meta alt b" />
   </action>
-  <action id="ParameterInfo" />
-  <action id="PinActiveTab">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
+  <action id="PinActiveEditorTab" />
+  <action id="PinToolwindowTab" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
