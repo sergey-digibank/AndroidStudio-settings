@@ -2,6 +2,9 @@
   <action id="ActivateBuildToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
+  <action id="ActivateBuildVariantsToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
