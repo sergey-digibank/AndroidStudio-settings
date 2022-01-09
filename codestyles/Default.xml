@@ -3,7 +3,9 @@
     <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </JetCodeStyleSettings>
   <codeStyleSettings language="XML">
+    <option name="RIGHT_MARGIN" value="200" />
     <option name="FORCE_REARRANGE_MODE" value="1" />
+    <option name="SOFT_MARGINS" value="80,120" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
