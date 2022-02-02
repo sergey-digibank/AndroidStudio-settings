@@ -1,6 +1,8 @@
 <application>
   <component name="SonarLintGlobalSettings">
     <option name="secretsNeverBeenAnalysed" value="false" />
-    <rules />
+    <rules>
+      <Rule active="false" key="kotlin:S1135" />
+    </rules>
   </component>
 </application>
