@@ -3,12 +3,13 @@
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="EDITOR_AA_TYPE" value="Greyscale" />
     <option name="EDITOR_TAB_LIMIT" value="20" />
+    <option name="EDITOR_TAB_PLACEMENT" value="2" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="20" />
     <option name="MAX_LOOKUP_WIDTH2" value="687" />
-    <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="SHOW_PINNED_TABS_IN_A_SEPARATE_ROW" value="true" />
+    <option name="SORT_TABS_ALPHABETICALLY" value="true" />
   </component>
 </application>
