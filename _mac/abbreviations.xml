@@ -1,6 +1,9 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="Gradle.ToggleOfflineAction">
+        <abbreviation name="gradleoffline" />
+      </action>
       <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
         <abbreviation name="previeweditor" />
       </action>
